@@ -1,0 +1,4 @@
+HTTP 1.1 relies on the transport layer to avoid buffer overflow, each new TCP connection requires a separate flow control mechanism.
+The contents of each stream are HTTP 1.1 requests and responses, just encoded and packed up differently. 
+HTTP 2, however, multiplexes streams within a single TCP connection, and will have to implement flow control in a different manner.
+HTTP2 adds a number of features to manage the streams, but leaves old semantics untouched.
