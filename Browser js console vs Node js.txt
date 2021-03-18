@@ -3,4 +3,4 @@ Javascript can only be run in the browsers.Where,NodeJS code can be run outside 
 Javascript is basically used on the client-side.Where,NodeJS is mostly used on the server-side.
 Javascript is capable enough to add HTML and play with the DOM.Where,Nodejs does not have capability to add HTML tags.
 Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.Where,Nodejs can only run in V8 engine of google chrome.
-Javascript is the upgraded version of ECMA script that uses Chrome’s V8 engine written in C++.Where,Nodejs is written in C, C++ and Javascript.
+Javascript is the upgraded version of ECMA script that uses Chrome’s V8 engine written in C++.Where,Nodejs is written in C, C++ and Javascript. 
