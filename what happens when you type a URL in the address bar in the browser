@@ -1,0 +1,10 @@
+The computer looks up the destination host. If it exists in local DNS cache, it uses that information. 
+Otherwise, DNS querying is performed until the IP address is found.
+
+Then, your browser opens a TCP connection to the destination host and sends the request according to 
+HTTP 1.1 (or might use HTTP 1.0, but normal browsers don't do it any more).
+
+The server looks up the required resource (if it exists) and responds using HTTP protocol, sends the data to the client (=your browser)
+
+The browser then uses HTML parser to re-create document structure which is later presented to you on screen. 
+If it finds references to external resources, such as pictures, css files, javascript files, these are is delivered the same way as the HTML document itself.
